@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  max-width: 900%;
+  margin: auto;
+}
+
+#wrapper {
+  margin: 0 5rem;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  border: 2px solid;
+  height: 200px;
+  border-radius: 7px;
+  background-color: rgb(49, 49, 49);
+  border-color: rgb(49, 49, 49);
+  grid-row: 1fr;
+}
+.icon_circle {
+  background-color: black;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_circle i {
+  color: rgb(180, 176, 176);
+  font-size: 18.2px;
+}
+.circle {
+  width: 120px;
+  height: 110.5px;
+  border-radius: 100%;
+  border: 2px none;
+  margin: auto;
+  margin-top: 20px;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.card p {
+  color: white;
+  margin-top: 2px;
+  padding: 10px;
+}
+.icon_container {
+  border: 2px none;
+  height: 5vh;
+  width: 20%;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 38rem;
+}
+.mute {
+  background-color: red;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mute {
+  color: white;
+  font-size: 13px;
+}
+.desk {
+  background-color: grey;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desk {
+  color: white;
+  font-size: 13px;
+}
+.phone {
+  background-color: red;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  color: white;
+  font-size: 13px;
+}
+.left_icon {
+  border: 2px none;
+  height: 5vh;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 85rem;
+  margin-top: -2rem;
+  color: white;
+  font-size: 15px;
+}
+.footer_text {
+  border: none;
+  height: 5vh;
+  width: 20%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -2rem;
+  margin-left: 3rem;
+}
